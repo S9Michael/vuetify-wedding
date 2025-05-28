@@ -1,30 +1,42 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <v-app>
+    <v-main>  
+      <v-app-bar 
+      scroll-behavior="hide"      
+      title = "" 
+      text-color="#5A86AD"       
+      >
+      <v-switch @click="toggleTheme" 
+                v-model="model" 
+                color=#5A86AD  
+                hide-details="true"    
+                
+                inset
+       /> 
+       <v-btn width="150px" to="/home">ÚVOD</v-btn>
+      <v-btn width="150px" to="/about">MY DVA</v-btn>
+      <v-btn width="150px" to="/wedding">NAŠE SVATBA</v-btn>
+      <v-btn width="150px" to="/schedule">HARMONOGRAM</v-btn>
+      <v-btn width="200px" to="/info">UŽITEČNÉ INFORMACE</v-btn>
+  
+      </v-app-bar>
+      
+      <router-view/>
+    </v-main>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script setup>
+import { ref } from 'vue'
+import { useTheme } from 'vuetify'
 
-nav {
-  padding: 30px;
-}
+const theme = useTheme()
+const model = ref(theme.global.name.value) // Sync with v-model
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+function toggleTheme () {
+  theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
 }
+</script>
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+
+
