@@ -1,25 +1,39 @@
 <template>
   <v-app>
     <v-main>
-      <!-- App Bar, zobrazí se jen na některých stránkách -->
       <v-app-bar
         v-if="showAppBar"
         scroll-behavior="hide"
-        title=""
         text-color="#5A86AD"
+        flat
+        :density="$vuetify.display.smAndDown ? 'compact' : 'default'"
       >
-        <v-switch
-          @click="toggleTheme"
-          v-model="model"
-          color="#5A86AD"
-          hide-details="true"
-          inset
-        />
-        <v-btn width="150px" to="/home">ÚVOD</v-btn>
-        <v-btn width="150px" to="/about">MY DVA</v-btn>
-        <v-btn width="150px" to="/wedding">NAŠE SVATBA</v-btn>
-        <v-btn width="150px" to="/schedule">HARMONOGRAM</v-btn>
-        <v-btn width="200px" to="/info">UŽITEČNÉ INFORMACE</v-btn>
+        <!-- App Bar Content -->
+        <v-container class="d-flex align-center pa-0" fluid>
+          <!-- Theme Switch -->
+          <v-switch
+            @click="toggleTheme"
+            v-model="model"
+            color="#5A86AD"
+            hide-details
+            inset
+            class="mr-4"
+          />
+
+          <!-- Scrollable Nav -->
+          <div class="nav-scroll">
+            <v-btn
+              v-for="item in navItems"
+              :key="item.to"
+              :to="item.to"
+              class="nav-btn"
+              variant="text"
+              :class="{ active: $route.path === item.to }"
+            >
+              {{ item.label }}
+            </v-btn>
+          </div>
+        </v-container>
       </v-app-bar>
 
       <router-view />
@@ -39,11 +53,40 @@ function toggleTheme() {
   theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
 }
 
-// --- Podmíněné zobrazení app bar ---
 const route = useRoute()
 const showAppBar = computed(() => {
-  // Cesty, kde se app bar nezobrazuje
-  const hiddenPaths = ['/','/forgettenpassword'] 
+  const hiddenPaths = ['/', '/forgettenpassword']
   return !hiddenPaths.includes(route.path)
 })
+
+const navItems = [
+  { label: 'ÚVOD', to: '/home' },
+  { label: 'MY DVA', to: '/about' },
+  { label: 'NAŠE SVATBA', to: '/wedding' },
+  { label: 'HARMONOGRAM', to: '/schedule' },
+  { label: 'UŽITEČNÉ INFORMACE', to: '/info' }
+]
 </script>
+
+<style scoped>
+.nav-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.nav-btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  min-width: 120px;
+  padding: 0 12px;
+  color: #5A86AD;
+}
+
+.nav-btn.active {
+  font-weight: bold;
+  border-bottom: 2px solid #5A86AD;
+  border-radius: 0;
+}
+</style>
