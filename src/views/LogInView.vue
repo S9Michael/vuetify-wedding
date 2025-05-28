@@ -24,7 +24,7 @@
   
           <a
             class="text-caption text-decoration-none"
-            href="forgettenpassword"
+            href="forgottenpassword"
             style = "color:#5A86AD"
             rel="noopener noreferrer"
             target="_self"

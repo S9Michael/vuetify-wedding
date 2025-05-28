@@ -5,6 +5,7 @@ import AboutView from '../views/AboutView.vue'
 import WeddingView from '../views/WeddingView.vue'
 import ScheduleView from '../views/ScheduleView.vue'
 import InfoView from '../views/InfoView.vue'
+import ForgottenPassword from '../views/ForgottenPasswordView.vue'
 
 const routes = [
   {
@@ -38,10 +39,10 @@ const routes = [
     component: InfoView
   },
   {
-    path: '/forgettenpassword',
-    name: 'forgettenpassword',
-    component: () => import( '../views/ForgettenPaswordView.vue')
-  }
+    path: '/forgottenpassword',
+    name: 'forgottenpassword',
+    component: ForgottenPassword
+  } 
 
 ]
 

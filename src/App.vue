@@ -55,7 +55,7 @@ function toggleTheme() {
 
 const route = useRoute()
 const showAppBar = computed(() => {
-  const hiddenPaths = ['/', '/forgettenpassword']
+  const hiddenPaths = ['/', '/forgottenpassword']
   return !hiddenPaths.includes(route.path)
 })
 
