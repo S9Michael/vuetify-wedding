@@ -64,7 +64,8 @@ const navItems = [
   { label: 'MY DVA', to: '/about' },
   { label: 'NAŠE SVATBA', to: '/wedding' },
   { label: 'HARMONOGRAM', to: '/schedule' },
-  { label: 'UŽITEČNÉ INFORMACE', to: '/info' }
+  { label: 'UŽITEČNÉ INFORMACE', to: '/info' },
+  { label: 'DOTAZNÍK', to: '/googlesurvey' }
 ]
 </script>
 

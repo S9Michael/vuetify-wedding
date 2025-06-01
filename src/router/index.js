@@ -6,6 +6,7 @@ import WeddingView from '../views/WeddingView.vue'
 import ScheduleView from '../views/ScheduleView.vue'
 import InfoView from '../views/InfoView.vue'
 import ForgottenPassword from '../views/ForgottenPasswordView.vue'
+import GoogleSurveyView from '../views/GoogleSurveyView.vue'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/forgottenpassword',
     name: 'forgottenpassword',
     component: ForgottenPassword
+  } ,
+    {
+    path: '/googlesurvey',
+    name: 'googlesurvey',
+    component: GoogleSurveyView
   } 
 
 ]
