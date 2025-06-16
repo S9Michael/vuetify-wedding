@@ -4,6 +4,7 @@
     <v-col cols="12" md="6">
         <v-card class="pa-6" max-width="600" elevation="4">
         <v-card-title class="text-h5 font-weight-bold">Svatební dotazník</v-card-title>
+        <v-card-subtitle>Z rodiny/páru vyplňuje pouze jeden.</v-card-subtitle>
         <v-form @submit.prevent="submitForm" v-model="valid">
             <v-text-field
             v-model="form.jmeno"
@@ -13,7 +14,7 @@
             />
             <v-text-field
             v-model="form.email"
-            label="Email"
+            label="Email (pro zaslání fotografií)"
             :rules="[v => /.+@.+\..+/.test(v) || 'Neplatný email']"
             required
             />

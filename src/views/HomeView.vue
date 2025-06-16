@@ -9,25 +9,18 @@
     </v-row>
 
     <!-- About Section -->
-    <v-row class="my-10">
-      <v-col cols="12" md="5">
+    <v-row class="my-10" justify="center">
+      <v-col cols="12"  md="7">
             <v-sheet class="rounded-img">
                    <v-img 
-                    src="../assets/couple1.jpg"
+                    src="../assets/norsko2.jpeg"
                     height="650"
                     cover 
                     class="rounded-img"
                   ></v-img>
            </v-sheet>
       </v-col>
-      <v-col cols="12" md="6">
-        <h2 class="headline font-weight-bold">Náš příběh</h2>
-        <p class="body-1">
-          Potkali jsme se před téměř sedmi lety a od té doby jsme nerozluční. 
-          Od prvního výletu na motorce až po společné cestování celým světem, nemůžeme se dočkat, 
-          až s vámi oslavíme tento krásný okamžik.
-        </p>
-      </v-col>
+
     </v-row>
 
     <!-- Event Details -->

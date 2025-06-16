@@ -15,30 +15,33 @@
       <section class="mb-6">
         <h2 class="text-subtitle-1 font-weight-medium mb-2">🚌 Doprava</h2>
         <p>
-          Parkování je možné přímo v areálu statkku. Pokud potřebujete odvoz, dejte nám vědět ve formuláři.
+          Parkovat je možné přímo na statku v Dolanech. Prosíme Vás, abyste se, pokud máte možnost, domluvili s dalšími hosty a dorazili v autech ve větších skupinkách.
+          Pro úplnost dodáváme, že obřad i oslava se koná na statku v Dolanech a nebude tedy třeba nikam přejíždět. 
+          Pokud potřebujete odvoz, dejte nám vědět v dotazníku.
         </p>
       </section>
 
-      <section>
+      <section class="mb-6">
         <h2 class="text-subtitle-1 font-weight-medium mb-2">🛏️ Spaní</h2>
         <p>
-          Pro hosty je zajištěno ubytování přímo v prostorách statku. Pokud máte zájem přespat, zaškrtněte tuto možnost ve formuláři.
+          Pro hosty je zajištěno ubytování přímo v prostorách statku. Pokud máte zájem přespat, zaškrtněte tuto možnost v dotazníku. 
         </p>
       </section>
 
-      <section>
+      <section class="mb-6">
         <h2 class="text-subtitle-1 font-weight-medium mb-2">🎁 Dary</h2>
         <p>
-          TODO.
+          Pokud byste nás chtěli poctít svatebním darem, budeme Vám vděčni za finanční příspěvek, který pro nás bude z praktických důvodů vhodnější než věcné dary. Mnohem důležitější pro nás ale je, že tento den strávíte s námi. Děkujeme!
         </p>
       </section>
 
-      <section>
-        <h2 class="text-subtitle-1 font-weight-medium mb-2">🎁 Dary</h2>
-        <p>
-          TODO.
-        </p>
+      <section class="mb-6">
+      <h2 class="text-subtitle-1 font-weight-medium mb-2"> 📵 Další informace</h2>
+      <p>
+        Těšíme se, že s námi prožijete náš svatební den naplno v přítomném okamžiku. Prosíme Vás, abyste během obřadu a přípitků nepoužívali mobilní telefony a fotoaparáty. Rádi Vám poté fotografie z těchto okamžiků zašleme.
+      </p>
       </section>
+      
     </v-card>
   </v-container>
 </template>

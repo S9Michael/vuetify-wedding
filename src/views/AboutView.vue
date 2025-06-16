@@ -15,15 +15,16 @@
         <v-col cols="12" md="8">
           <v-carousel hide-delimiters>
             <v-carousel-item src="@/assets/italie.jpeg" alt="Fotka 1"></v-carousel-item>
-            <v-carousel-item src="@/assets/ferraty.jpeg" alt="Fotka 2"></v-carousel-item>
+            <v-carousel-item src="@/assets/couple.jpeg" alt="Fotka 2"></v-carousel-item>
             <v-carousel-item src="@/assets/norsko.jpeg" alt="Fotka 3"></v-carousel-item>   
-            <v-carousel-item src="@/assets/norsko2.jpeg" alt="Fotka 4"></v-carousel-item>     
-            <v-carousel-item src="@/assets/sanmarino.jpeg" alt="Fotka 6"></v-carousel-item>   
-            <v-carousel-item src="@/assets/slovinsko.jpeg" alt="Fotka 7"></v-carousel-item>
-            <v-carousel-item src="@/assets/tatry.jpeg" alt="Fotka 8"></v-carousel-item>   
-            <v-carousel-item src="@/assets/italie2.jpeg" alt="Fotka 9"></v-carousel-item> 
-            <v-carousel-item src="@/assets/ferratyslovensko.jpeg" alt="Fotka 10"></v-carousel-item>  
-            <v-carousel-item src="@/assets/img.jpeg" alt="Fotka 11"></v-carousel-item>        
+            <v-carousel-item src="@/assets/motofoto.jpeg" alt="Fotka 4"></v-carousel-item>        
+            <v-carousel-item src="@/assets/sanmarino.jpeg" alt="Fotka 5"></v-carousel-item>   
+            <v-carousel-item src="@/assets/slovinsko.jpeg" alt="Fotka 6"></v-carousel-item>
+            <v-carousel-item src="@/assets/tatry.jpeg" alt="Fotka 7"></v-carousel-item>   
+            <v-carousel-item src="@/assets/italie2.jpeg" alt="Fotka 8"></v-carousel-item> 
+            <v-carousel-item src="@/assets/ferratyslovensko.jpeg" alt="Fotka 9"></v-carousel-item>  
+            <v-carousel-item src="@/assets/img.jpeg" alt="Fotka 10"></v-carousel-item> 
+                 
           </v-carousel>
         </v-col>
       </v-row>

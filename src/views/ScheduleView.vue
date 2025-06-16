@@ -68,7 +68,7 @@
               <v-card-title>Slavnostní přípitek a proslovy</v-card-title>
               <v-card-subtitle>Proslovy</v-card-subtitle>
               <v-card-text>
-                Slavnostní přípitek s proslovy rodičů a přátel zakončný společnou polévkou.
+                Slavnostní přípitek s proslovy rodičů a přátel zakončený společnou polévkou.
               </v-card-text>
             </v-card>
           </v-timeline-item>
@@ -85,7 +85,7 @@
               <v-card-title>Focení novomanželů</v-card-title>
               <v-card-subtitle>Focení</v-card-subtitle>
               <v-card-text>
-                Kreativní fotky :D.
+                Nevěsta s ženichem na chvíli zmizí před objektiv, vy si zatím dejte něco dobrého.
               </v-card-text>
             </v-card>
           </v-timeline-item>
