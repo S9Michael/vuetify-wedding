@@ -22,7 +22,7 @@
       </section>
 
       <section class="mb-6">
-        <h2 class="text-subtitle-1 font-weight-medium mb-2">🛏️ Spaní</h2>
+        <h2 class="text-subtitle-1 font-weight-medium mb-2">🛏️ Ubytování</h2>
         <p>
           Pro hosty je zajištěno ubytování přímo v prostorách statku. Pokud máte zájem přespat, zaškrtněte tuto možnost v dotazníku. 
         </p>

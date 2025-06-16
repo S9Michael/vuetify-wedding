@@ -35,7 +35,7 @@
           </v-card-text>
           <!-- Tlačítko pro přidání do Google Kalendáře -->
           <v-card-actions>
-            <v-btn color="pink darken-2" block class="white--text" @click="addToCalendar">
+            <v-btn color="indigo darken-2" block class="white--text" @click="addToCalendar">
               📅 Přidat do Google Kalendáře
             </v-btn>
           </v-card-actions>

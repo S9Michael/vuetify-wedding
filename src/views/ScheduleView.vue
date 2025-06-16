@@ -15,7 +15,7 @@
             </template>
             <v-card>
               <v-card-title>Přípravy</v-card-title>
-              <v-card-subtitle>Začátek dne, příprava nevěsty a ženicha</v-card-subtitle>
+              <!-- <v-card-subtitle>Začátek dne, příprava nevěsty a ženicha</v-card-subtitle> -->
               <v-card-text>
                 Příjezd hostů, přípravy nevěsty a ženicha.
               </v-card-text>
@@ -32,7 +32,7 @@
             </template>
             <v-card>
               <v-card-title>Obřad</v-card-title>
-              <v-card-subtitle>Slavnostní obřad</v-card-subtitle>
+              <!-- <v-card-subtitle>Slavnostní obřad</v-card-subtitle> -->
               <v-card-text>
                 Nejdůležitější moment dne! Řekneme své <b>ANO</b> a stvrdíme naši lásku před rodinou a přáteli.
               </v-card-text>
@@ -49,7 +49,7 @@
             </template>
             <v-card>
               <v-card-title>Společné focení</v-card-title>
-              <v-card-subtitle>Focení</v-card-subtitle>
+             <!--  <v-card-subtitle>Focení</v-card-subtitle>-->
               <v-card-text>
                 Focení s rodinou a přáteli.
               </v-card-text>
@@ -66,7 +66,7 @@
             </template>
             <v-card>
               <v-card-title>Slavnostní přípitek a proslovy</v-card-title>
-              <v-card-subtitle>Proslovy</v-card-subtitle>
+              <!-- <v-card-subtitle>Proslovy</v-card-subtitle>-->
               <v-card-text>
                 Slavnostní přípitek s proslovy rodičů a přátel zakončený společnou polévkou.
               </v-card-text>
@@ -83,7 +83,7 @@
             </template>
             <v-card>
               <v-card-title>Focení novomanželů</v-card-title>
-              <v-card-subtitle>Focení</v-card-subtitle>
+              <!-- <v-card-subtitle>Focení</v-card-subtitle> -->
               <v-card-text>
                 Nevěsta s ženichem na chvíli zmizí před objektiv, vy si zatím dejte něco dobrého.
               </v-card-text>
@@ -100,7 +100,7 @@
             </template>
             <v-card>
               <v-card-title>Krájení dortu</v-card-title>
-              <v-card-subtitle>Královské krájení dortu</v-card-subtitle>
+              <!-- <v-card-subtitle>Královské krájení dortu</v-card-subtitle> -->
               <v-card-text>
                 Pro nevěstu nejdůležitější část dne.
               </v-card-text>
@@ -117,7 +117,7 @@
             </template>
             <v-card>
               <v-card-title>Svatební tanec</v-card-title>
-              <v-card-subtitle>První tanec novomanželů</v-card-subtitle>
+              <!--  <v-card-subtitle>První tanec novomanželů</v-card-subtitle> -->
               <v-card-text>
                 Na parketu zazní náš <b>první tanec</b> jako manželé. Připravte si kapesníky, protože to bude romantika! 🥰
               </v-card-text>
@@ -134,7 +134,7 @@
             </template>
             <v-card>
               <v-card-title>Párty a zábava</v-card-title>
-              <v-card-subtitle>Zábava, tance a večerní program</v-card-subtitle>
+              <!--  <v-card-subtitle>Zábava, tance a večerní program</v-card-subtitle> -->
               <v-card-text>
                 Po večeři začne <b>skutečná oslava</b>! Hudba, tanec a spousta smíchu až do ranních hodin. 🎉
               </v-card-text>
